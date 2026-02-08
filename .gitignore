@@ -1,0 +1,16 @@
+.venv/
+uv.lock
+.env
+__pycache__/
+*/__pycache__/
+
+output/
+tests/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
