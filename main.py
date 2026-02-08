@@ -63,7 +63,6 @@ def update_content(crawled_content: dict, page: int, final_result: str) -> str:
 
 def process_crawl_article():
     schema = load_json(f"schema/ts.py")
-    logger.info(f"Loaded schema: {schema}")
     final_result = """"""
     base_url = BASE_URL.rstrip("/")
     save_file = f"output/{SAVE_FILE_NAME}.txt"
